@@ -1,0 +1,185 @@
+html{
+	text-align: center;
+
+}
+h2{
+	font-family: 'Montserrat', sans-serif;
+}
+h1{	
+	font-size: 60px;
+	font-family: 'Raleway', sans-serif;
+	border-color: solid black;
+	color: white;
+
+}
+.poop{
+	padding: 300px;
+	color: white;
+	 
+}
+body{
+	background-image: url(https://images.unsplash.com/photo-1496098236379-e7c6cfb4a70d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a9b86e357288042d6b554f830e62793e&w=1000&q=80)
+}
+.poopy{
+	border: 1px solid black;
+background-color: white;
+padding-top: 60px;
+
+}
+img{
+	height: 600px;
+    width: 30%;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    transition: all 0.6s ease-in-out;
+}
+img:hover{
+	filter: grayscale(100%);
+	transform: translateY(-5%);
+	    transform: scale(1.5); 
+}
+p{
+
+	color: black;
+	padding-bottom: 50px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+p::after{
+
+}
+h3{
+	color: brown;
+	opacity: 5000;
+	font-size: 30px;
+	font-family: 'Homemade Apple', cursive;
+}
+h3:hover{
+	color: #0B173B;
+}
+ul {
+    margin: 50px;
+    list-style-type: none;
+    margin: 0;
+    padding-: 0;
+    overflow: hidden;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+}
+li{
+    float: left;
+}
+
+li a {
+    display: block;
+    color:#0A122A;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+li a:hover{
+	color: #0B2F3A;
+	background-color: blue;
+}
+body {
+	width: 100wh;
+	height: 90vh;
+	color: #19070B;
+	background: linear-gradient(-100deg, #0431B4, #2A1B0A, #610B21,#3B0B24);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+h1,
+h6 {
+	font-family: 'Open Sans';
+	font-weight: 300;
+	text-align: center;
+	position: absolute;
+	top: 45%;
+	right: 0;
+	left: 0;
+}
+
+
+.container {
+    border: 2px solid #dedede;
+    background-color: #5F4C0B;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.darker {
+    border-color: black;
+    background-color: grey;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+
+.time-right {
+    float: right;
+    color: #5F4C0B;
+}
+
+.time-left {
+    float: left;
+    color: #5F4C0B;
+}
